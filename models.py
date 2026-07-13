@@ -13,12 +13,10 @@ from typing import List
 from sqlalchemy import (
     String,
     Integer,
-    Date,
     DateTime,
     ForeignKey,
     Numeric
 )
-
 from sqlalchemy.orm import (
     Mapped,
     mapped_column,
